@@ -6,7 +6,6 @@ require './lib/patron'
 class ExhibitTest < Minitest::Test
   def setup
     @exhibit = Exhibit.new("Gems and Minerals", 0)
-    bob = Patron.new("Bob", 20)
   end
 
   def test_it_exists
